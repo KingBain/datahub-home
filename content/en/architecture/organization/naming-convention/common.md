@@ -49,7 +49,7 @@ With this setup, the environment field specifies the environment for each config
   - `gen-dev-cc-00-vnet`
   - `gen-test-cc-00-vnet`
   - `gen-uat-cc-00-vnet`
--AURProd subscription
+    -AURProd subscription
   - `ingress-prod-cc-00-vnet`
   - `mgmt-prod-cc-00-vnet`
   - `gen-qa-cc-00-vnet`
@@ -88,7 +88,7 @@ There are multiple valid approaches to order the fields in the naming convention
 Here are the patterns that were identified given these constraints:
 
 | **Pattern Name**                                             | **Pattern**                                                              |
-|--------------------------------------------------------------|--------------------------------------------------------------------------|
+| ------------------------------------------------------------ | ------------------------------------------------------------------------ |
 | Most Unique Fields First                                     | {userDefined}-{project}-{environment}-{region}-{instance}-{resourceType} |
 | Resource Type Followed by UserDefined Field                  | {resourceType}-{userDefined}-{project}-{environment}-{region}-{instance} |
 | Matryoshka Doll (order by frequency)                         | {resourceType}-{project}-{environment}-{region}-{userDefined}-{instance} |
@@ -104,7 +104,7 @@ After carefully considering the advantages and disadvantages, it has been decide
 The maximum character length of each field within the Common Naming Convention shall be the following:
 
 | Project | Environment | Region | Instance | Resource Type | User Defined |
-|:-------:|:-----------:|:------:|:--------:|:-------------:|:------------:|
+| :-----: | :---------: | :----: | :------: | :-----------: | :----------: |
 |    7    |      6      |   2    |    2     |       4       |      14      |
 
 <div class="mb-400"></div>

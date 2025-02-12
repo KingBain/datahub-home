@@ -12,7 +12,7 @@ showToc: true
 In summary, all of the naming conventions devised for resources are outlined in the table below:
 
 | Naming Convention  | Pattern                                                                  | Comments                                                                                                                                                                                                                                                                                                                                                                |
-|:------------------:|--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| :----------------: | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |       Common       | {project}-{environment}-{region}-{instance}-{resourceType}-{userDefined} | - The userDefined field is optional<br>- The project field can be either ingress, mgmt, gen, or cns for AUR related resources<br>- The meaning of each field is defined in the Fields section<br>- The order of each field is defined within the Field Ordering section<br>- The max character count per field is defined within the Character Count per Field section. |
 | Resource Attribute | {userDefined}                                                            | - Refer to the Resource Attribute Naming Convention section for more details                                                                                                                                                                                                                                                                                            |
 |       Global       | {resourceType}{randomCharacters}{userDefined}                            | - For use when the common naming convention can't be used & the other conventions don't apply<br>- Reasoning for using this convention may include character count restrictions or naming conflict concerns                                                                                                                                                             |
@@ -30,7 +30,7 @@ The following table maps network-related resource types to the naming convention
 The example column assumes the resource is associated with the Development SDLC Kubernetes cluster within a given subscription.
 
 |        Resource         |     Scope      | Max Characters | Naming Convention | Example                     |
-|:-----------------------:|:--------------:|:--------------:|:-----------------:|-----------------------------|
+| :---------------------: | :------------: | :------------: | :---------------: | --------------------------- |
 |     Virtual Network     | resource group |       64       |      Common       | gen-dev-cc-00-vnet          |
 |       Route Table       | resource group |       80       |      Common       | gen-dev-cc-00-rt            |
 | Network Security Group  | resource group |       80       |      Common       | gen-dev-cc-00-nsg-system    |
@@ -46,15 +46,15 @@ The example column assumes the resource is associated with the Development SDLC 
 
 The following table maps resource types not covered within the above table to the naming convention they should use.
 
-|            Resource            |     Scope      | Max Characters | Naming Convention | Example                       |
-|:------------------------------:|:--------------:|:--------------:|:-----------------:|-------------------------------|
-|         Resource Group         |  subscription  |       90       |      Common       | gen-dev-cc-00-rg              |
-|        Storage Account         |     global     |       24       |      Global       | velero12345678sa              |
-|           Key Vault            |     global     |       24       |      Global       | encryption12345678kv          |
-|      Disk Encryption Set       | resource group |       80       |      Common       | gen-dev-cc-00-des-encryption  |
-|       Container Registry       |     global     |       63       |      Global       | aur12345678cr                 |
-|       PostgreSQL Server        |     global     |       63       |      Global       | gen-dev-cc-00-psql-jfrog      |
-|    Kubernetes Service    | resource group |       63       |      Common       | gen-dev-cc-00-ks             |
+|            Resource            |     Scope      | Max Characters | Naming Convention | Example                      |
+| :----------------------------: | :------------: | :------------: | :---------------: | ---------------------------- |
+|         Resource Group         |  subscription  |       90       |      Common       | gen-dev-cc-00-rg             |
+|        Storage Account         |     global     |       24       |      Global       | velero12345678sa             |
+|           Key Vault            |     global     |       24       |      Global       | encryption12345678kv         |
+|      Disk Encryption Set       | resource group |       80       |      Common       | gen-dev-cc-00-des-encryption |
+|       Container Registry       |     global     |       63       |      Global       | aur12345678cr                |
+|       PostgreSQL Server        |     global     |       63       |      Global       | gen-dev-cc-00-psql-jfrog     |
+|       Kubernetes Service       | resource group |       63       |      Common       | gen-dev-cc-00-ks             |
 | User-Assigned Managed Identity | resource group |      128       |      Common       | gen-dev-cc-00-msi-ks-kubelet |
 
 <div class="mb-400"></div>

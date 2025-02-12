@@ -29,13 +29,13 @@ As cloud-native technologies become more prevalent within the Government of Cana
 
 Some of the departments with their own Kubernetes environments (at least in some fashion) include:
 
-* Statistics Canada
-* Public Health Agency of Canada
-* Canada Revenue Agency
-* Employment and Social Development Canada
-* Department of National Defence
-* Department of Fisheries and Oceans
-* And many others...
+- Statistics Canada
+- Public Health Agency of Canada
+- Canada Revenue Agency
+- Employment and Social Development Canada
+- Department of National Defence
+- Department of Fisheries and Oceans
+- And many others...
 
 For over two decades, software organizations have faced the challenge of managing shared infrastructure, code, and tools across multiple teams. Centralized teams were often formed to handle these shared demands, but they frequently encountered issues such as being disconnected from their users' needs, developing overly complex or unstable solutions, or lacking flexibility. On the other hand, decentralizing entirely and giving application teams direct access to cloud tools and open-source software has exposed them to operational complexity, leading to inefficiencies and the need for costly site reliability engineers (SREs) or DevOps specialists.
 

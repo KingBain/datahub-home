@@ -77,7 +77,7 @@ Given these guidelines, resource names will use only lowercase alphanumeric char
 The maximum character length of each field within the Restricted Naming Convention shall be the following:
 
 | Resource Type | Random Characters | User Defined |
-|:-------------:|:-----------------:|:------------:|
+| :-----------: | :---------------: | :----------: |
 |       2       |         6         |      16      |
 
 <div class="mb-400"></div>

@@ -15,7 +15,7 @@ Rejoignez notre <gcds-link href="{{< relref "/impliquez-vous" >}}">communauté g
 
 Utilisez ce formulaire pour partager vos commentaires, exprimer votre intérêt pour utiliser Aurora ou poser des questions :
 
-* <gcds-link external href="https://forms-formulaires.alpha.canada.ca/en/id/cm2jbp567008td1eckzthh4ai">Formulaires GC</gcds-link>
+- <gcds-link external href="https://forms-formulaires.alpha.canada.ca/en/id/cm2jbp567008td1eckzthh4ai">Formulaires GC</gcds-link>
 
 <hr class="my-500" />
 

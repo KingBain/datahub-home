@@ -18,8 +18,8 @@ The Aurora team follows a naming convention with these key goals:
 - **Ensure uniqueness**: Each resource name should be unique within its enterprise tenant to avoid conflicts and confusion.
 - **Adhere to provider-specific naming restrictions**: Resource names must follow the specific naming constraints set by each cloud provider:
   - **[Azure Naming Restrictions](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/resource-name-rules)**
-  - *Google Cloud Naming Constraints* (TODO)
-  - *AWS Naming Constraints* (TODO)
+  - _Google Cloud Naming Constraints_ (TODO)
+  - _AWS Naming Constraints_ (TODO)
 - **Promote consistency**: Using a unified naming convention across all resources, regardless of type, improves readability and streamlines resource management.
 
 The following sections will outline the key elements in Aurora’s naming conventions and provide specific guidelines for each resource type.
@@ -46,7 +46,7 @@ It is important to mention that some resource types may not have all of the abov
 The following table provides abbreviations for some common resource types when specifying the **Resource Type** field.
 
 | Abbreviation |            Resource            |
-|:------------:|:------------------------------:|
+| :----------: | :----------------------------: |
 |      rg      |         Resource Group         |
 |     vnet     |        Virtual Network         |
 |      rt      |          Route Table           |
@@ -67,7 +67,7 @@ The following table provides abbreviations for some common resource types when s
 The following table lists some common environments and their corresponding abbreviation that can be set for the **Environment** field.
 
 |      Environments       | Abbreviation |
-|:-----------------------:|:------------:|
+| :---------------------: | :----------: |
 |       Development       |     dev      |
 |          Test           |     test     |
 |    Quality Assurance    |      qa      |
