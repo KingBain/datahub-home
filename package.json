@@ -8,7 +8,7 @@
     "dev": "hugo server --environment development --watch",
     "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
     "preview": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify",
-    "lint": "markdownlint 'content/**/*.md' --ignore node_modules",
+    "lint": "markdownlint-cli2 'content/**/*.md' --ignore node_modules",
     "format": "prettier -w ."
   },
   "devDependencies": {
